@@ -1,6 +1,6 @@
 {
   "name": "ss-react",
-  "version": "4.0.0",
+  "version": "1.0.2",
   "description": "Super Simple React. A React component library.",
   "main": "dist/ss-react.js",
   "scripts": {
