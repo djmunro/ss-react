@@ -1,22 +1,11 @@
-<p align="center">
+<!-- <p align="center">
 	<img src="https://user-images.githubusercontent.com/10063864/45442352-c961ab80-b68f-11e8-84a3-e920f05a313c.png" width={400} alt="Rinse" />
-</p>
+</p> -->
 
 
-> Rinse, React, repeat. A boilerplate to build a React component library.
-
-#### To learn how this project was made from scratch, [read the blog post](https://medium.com/@cwlsn/how-to-write-your-own-reusable-react-component-library-a57dc7c9a210)!
+> Supe Simple React. A React component library.
 
 ## Get Started
-
-To start your own React component library, clone this repository and start your own Git journey!
-
-```bash
-$ git clone https://github.com/cwlsn/rinse-react cool-name
-$ cd cool-name
-$ rm -rf .git
-$ git init
-```
 
 ## Development and Storybook
 
