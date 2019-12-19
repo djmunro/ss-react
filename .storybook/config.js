@@ -5,7 +5,7 @@ import { Global, css, jsx } from '@emotion/core'
 
 import { theme, GlobalStyles } from "../src/theme/global";
 
-addDecorator(withThemesProvider([theme.light, theme.dark, theme.retro, theme.default]));
+addDecorator(withThemesProvider([theme.default, theme.light, theme.dark, theme.retro]));
 
 addDecorator(story => (
   <div>

@@ -7,7 +7,15 @@ export default {
   title: 'Button',
 };
 
-export const text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+
+export const basic = () => (
+  <div>
+    <Button onClick={action('clicked')}>Default Button</Button>
+    <Button onClick={action('clicked')} variant="outlined">Outlined Button</Button>
+    <Button onClick={action('clicked')} variant="clear">Clear Button</Button>
+  </div>
+);
+
 
 export const emoji = () => (
   <Button onClick={action('clicked')}>

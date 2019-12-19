@@ -1,8 +1,9 @@
 export const defaultTheme = {
   name: 'Default',
   colors: {
-    primary: 'white',
-    secondary: 'black',
+    primary: '#9b4dca',
+    secondary: '#606c76',
+    white: 'white',
   },
   media: {
     xl: '1240px',
@@ -51,13 +52,15 @@ export const theme = {
 
 export const GlobalStyles = `
     html {
+      box-sizing: border-box;
       font-size: 62.5%;
     }
   
     body {
       padding: 0;
       margin: 0;
-      font-size: 1.6rem;
+      font-size: 1.6em;
+      line-height: 1.6;
       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     }
   
