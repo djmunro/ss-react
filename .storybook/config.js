@@ -20,11 +20,4 @@ addDecorator(story => (
   </div>
 ));
 
-
-const req = require.context('../src', true, /\.stories.(js|jsx)$/);
-
-function loadStories() {
-  req.keys().forEach(filename => req(filename));
-}
-
-configure(loadStories, module);
+configure(require.context('../src', true, /\.stories.(js|jsx)$/), module);
