@@ -67,6 +67,7 @@
   ],
   "dependencies": {
     "@emotion/core": "^10.0.22",
-    "@emotion/styled": "^10.0.23"
+    "@emotion/styled": "^10.0.23",
+    "storybook-addon-emotion-theme": "^2.1.1"
   }
 }

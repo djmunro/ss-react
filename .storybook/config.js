@@ -1,21 +1,15 @@
 /** @jsx jsx */
-
 import { configure, addDecorator } from '@storybook/react';
+import { withThemesProvider } from 'storybook-addon-emotion-theme';
 import { Global, css, jsx } from '@emotion/core'
 
-export const bodyStyles = css`
-  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-`
+import { theme, GlobalStyles } from "../src/theme/global";
+
+addDecorator(withThemesProvider([theme.light, theme.dark, theme.retro, theme.default]));
 
 addDecorator(story => (
   <div>
-    <Global
-      styles={css`
-          body {
-            ${bodyStyles}
-          }
-        `}
-    />
+    <Global styles={css(GlobalStyles)} />
     {story()}
   </div>
 ));
