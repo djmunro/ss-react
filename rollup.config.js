@@ -22,6 +22,7 @@ export default {
       sourcemap: true
     }
   ],
+  external: ['react', 'prop-types', '@emotion/styled', '@emotion/core'],
   plugins: [
     external(),
     postcss({
