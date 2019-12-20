@@ -3,9 +3,9 @@ import { css } from '@emotion/core';
 
 const baseHeading = css`
   font-weight: 300;
-  letter-spacing: -.1rem;
+  letter-spacing: -0.1rem;
   margin-top: 0;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
 `;
 
 export const H1 = styled.h1`
@@ -29,7 +29,7 @@ export const H3 = styled.h3`
 export const H4 = styled.h4`
   ${baseHeading};
   font-size: 2.2rem;
-  letter-spacing: -.08rem;
+  letter-spacing: -0.08rem;
   line-height: 1.35;
 `;
 
@@ -48,18 +48,18 @@ export const H6 = styled.h6`
 `;
 
 export const P = styled.p`
-    margin-top: 0;
+  margin-top: 0;
 `;
 
 export const A = styled.a`
-    color: ${({ theme }) => theme.colors.primary};
-    text-decoration: none;
+  color: ${({ theme }) => theme.colors.primary};
+  text-decoration: none;
 `;
 
 export const Em = styled.em``;
 
 export const Small = styled.small`
-font-size: smaller;
+  font-size: smaller;
 `;
 
 export const Strong = styled.strong``;
