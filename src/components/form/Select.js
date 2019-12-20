@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
-const Select = styled.select``;
+import { baseInputStyles } from './base';
+
+const Select = styled.select`
+  ${baseInputStyles};
+`;
 
 export default Select;
