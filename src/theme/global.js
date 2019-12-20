@@ -59,6 +59,7 @@ export const GlobalStyles = `
     body {
       padding: 0;
       margin: 0;
+      font-color: #606c76;
       font-size: 1.6em;
       line-height: 1.6;
       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
