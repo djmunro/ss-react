@@ -22,15 +22,23 @@ export const input = () => (
 export const select = () => {
   const options = ['one', 'two'];
   return (
-    <Select>
-      {options.map((option) => (
-        <option value={`${option}`}>{option}</option>
-      ))}
-    </Select>
+    <>
+      <Label htmlFor="select">Label</Label>
+      <Select id="select">
+        {options.map((option) => (
+          <option value={`${option}`}>{option}</option>
+        ))}
+      </Select>
+    </>
   );
 };
 
-export const textArea = () => <TextArea placeholder="Hi CJ ..." />;
+export const textArea = () => (
+  <>
+    <Label htmlFor="text-area">Label</Label>
+    <TextArea id="text-area" placeholder="Hi CJ ..." />
+  </>
+);
 
 export const all = () => (
   <>
