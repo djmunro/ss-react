@@ -54,6 +54,7 @@ export const theme = {
 };
 
 export const GlobalStyles = `
+    @import url(//fonts.googleapis.com/css?family=Roboto);
     html {
       box-sizing: border-box;
       font-size: 62.5%;
@@ -62,10 +63,16 @@ export const GlobalStyles = `
     body {
       padding: 0;
       margin: 0;
-      font-color: #606c76;
+      color: #606c76;
       font-size: 1.6em;
+      font-weight: 300;
+      letter-spacing: .01em;
       line-height: 1.6;
       font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    }
+
+    blockquote, dl, figure, form, ol, p, pre, table, ul {
+      margin-bottom: 2.5rem;
     }
   
     h1, h2, h3 { 
