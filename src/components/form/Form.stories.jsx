@@ -18,7 +18,6 @@ export const input = () => (
 
 export const select = () => {
   const options = ['one', 'two'];
-  const [value, setValue] = useState('');
   return (
     <Select>
       {options.map((option) => (
@@ -32,5 +31,13 @@ export const all = () => (
   <>
     <Label htmlFor="text-input">Name</Label>
     <Input id="text-input" placeholder="CJ Patoilo" />
+
+    <Label htmlFor="age">Age Range</Label>
+    <Select id="age">
+      <option value="0-13">0-13</option>
+      <option value="14-17">14-17</option>
+      <option value="18-23">18-23</option>
+      <option value="24-plus">24+</option>
+    </Select>
   </>
 );
