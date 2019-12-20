@@ -17,6 +17,7 @@ export const lightTheme = {
   colors: {
     primary: '#6D435A',
     secondary: '#B1EDE8',
+    white: 'white',
   },
   media: {
     xl: '600px',
@@ -30,6 +31,7 @@ export const darkTheme = {
   colors: {
     primary: '#C2DFE3',
     secondary: '#253237',
+    white: 'white',
   },
   media: { ...defaultTheme.media },
 };
@@ -39,6 +41,7 @@ export const retroTheme = {
   colors: {
     primary: '#134611',
     secondary: '#3E8914',
+    white: 'white',
   },
   media: { ...defaultTheme.media },
 };
