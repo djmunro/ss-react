@@ -55,6 +55,11 @@ export const theme = {
 
 export const GlobalStyles = `
     @import url(//fonts.googleapis.com/css?family=Roboto);
+    
+    *, *:after, *:before {
+      box-sizing: inherit;
+    }
+    
     html {
       box-sizing: border-box;
       font-size: 62.5%;
@@ -73,6 +78,10 @@ export const GlobalStyles = `
 
     blockquote, dl, figure, form, ol, p, pre, table, ul {
       margin-bottom: 2.5rem;
+    }
+
+    fieldset, input, select, textarea {
+      margin-bottom: 1.5rem;
     }
   
     h1, h2, h3 { 
