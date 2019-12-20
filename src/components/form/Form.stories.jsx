@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { action } from '@storybook/addon-actions';
 
 import Label from './Label';
 import Input from './Input';
 import Select from './Select';
+import TextArea from './TextArea';
+
+import Button from '../button/Button';
 
 export default {
   title: 'Form',
@@ -27,6 +30,8 @@ export const select = () => {
   );
 };
 
+export const textArea = () => <TextArea placeholder="Hi CJ ..." />;
+
 export const all = () => (
   <>
     <Label htmlFor="text-input">Name</Label>
@@ -39,5 +44,12 @@ export const all = () => (
       <option value="18-23">18-23</option>
       <option value="24-plus">24+</option>
     </Select>
+
+    <Label htmlFor="comment">Comment</Label>
+    <TextArea id="comment" placeholder="Hi CJ ..." />
+
+    <Button type="submit" value="submit">
+      Submit
+    </Button>
   </>
 );
