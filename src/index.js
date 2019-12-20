@@ -13,3 +13,4 @@ export {
   Strong,
   U,
 } from './components/typography/Typography';
+export * from './components/form';
