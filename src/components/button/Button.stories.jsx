@@ -9,11 +9,11 @@ export default {
 
 
 export const basic = () => (
-  <div>
+  <>
     <Button onClick={action('clicked')}>Default Button</Button>
     <Button onClick={action('clicked')} variant="outlined">Outlined Button</Button>
     <Button onClick={action('clicked')} variant="clear">Clear Button</Button>
-  </div>
+  </>
 );
 
 
