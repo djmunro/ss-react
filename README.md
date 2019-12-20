@@ -4,7 +4,7 @@
 
 ## Documentation
 
-Visit the [ss-react] website for more information.
+Visit the [Storybook] for more information.
 
 ## Install
 
@@ -44,5 +44,4 @@ See the [Change Log].
 
 [change log]: https://github.com/
 [code-sandbox playground]: https://codesandbox.io/s/ssreactcomponents-ob3nn
-[storybook]: https://
-[ss-react]: https://
+[storybook]: https://ss-react.davidmunro.now.sh/
