@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
+const nanoid = require('nanoid');
+
 const TableWrapper = styled.table`
   border-spacing: 0;
   width: 100%;
@@ -27,15 +29,15 @@ const Table = ({ columns, data }) => (
     <thead>
       <tr>
         {columns.map((column) => (
-          <TableHead>{column}</TableHead>
+          <TableHead key={column}>{column}</TableHead>
         ))}
       </tr>
     </thead>
     <tbody>
       {data.map((items) => (
-        <tr>
+        <tr key={nanoid()}>
           {items.map((item) => (
-            <TableCell>{item}</TableCell>
+            <TableCell key={item}>{item}</TableCell>
           ))}
         </tr>
       ))}

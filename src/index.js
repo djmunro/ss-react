@@ -14,3 +14,4 @@ export {
   U,
 } from './components/typography/Typography';
 export * from './components/form';
+export { default as Table } from './components/table/Table.jsx';
