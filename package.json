@@ -88,7 +88,7 @@
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
     "@storybook/react": "^5.2.8",
-    "nanoid": "^2.1.8",
+    "nanoid": "^3.1.31",
     "storybook-addon-emotion-theme": "^2.1.1"
   }
 }
